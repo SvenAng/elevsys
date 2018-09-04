@@ -1,0 +1,16 @@
+@import "../../zurb_foundation/scss/foundation/functions";
+
+body{
+  background: #999
+}
+.scroll-top {
+  background-color: #008CBA;
+  border-radius: 4px;
+  bottom: 1.5rem;
+  display: none;
+  height: 40px;
+  position: fixed;
+  right: 2rem;
+  text-align: center;
+  width: 40px;
+}

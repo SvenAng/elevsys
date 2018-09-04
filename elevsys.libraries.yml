@@ -1,0 +1,11 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/elevsys.css: {}
+  js:
+    js/elevsys.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/modernizr
