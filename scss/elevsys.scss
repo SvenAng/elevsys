@@ -33,8 +33,9 @@
 // The theme will have compilation errors if Foundation is not imported.
 
 // Global Zurb Foundation variable overrides.
-@import "base/init";
+@import "../../zurb_foundation/scss/foundation/functions";
 @import "settings";
+@import "base/init";
 // Comment out this import if you don't want to use normalize.
 @import "../../zurb_foundation/scss/normalize";
 

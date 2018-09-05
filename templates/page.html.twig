@@ -65,21 +65,18 @@
       {{ page.right_off_canvas }}
     </aside>
     
-    {{ page.m_nav }}
-    <div class ="menu-d">
-      {{ page.d_nav }}
-    </div>
     
-      {% if page.meta_header %}x
-        {% if meta_header_grid %}
+    
+      {% if page.meta_header %}
+        <div class="meta_header">
           <div class="row">
             <div class="large-12 columns">
-        {% endif %}
-        {{ page.meta_header }}
-        {% if meta_header_grid %}
+
+              {{ page.meta_header }}
+
             </div>
           </div>
-        {% endif %}
+        </div>
       {% endif %}
 
       <header class="row" role="banner" aria-label="{{ 'Site header'|t }}">
@@ -89,16 +86,24 @@
               {{ linked_logo }}
             {% endif %}
           </div>
-          <div class="left large-4 columns">
-            {% if is_front %}
+          <div class="left large-10 columns">
+            
               <h1 id="site-name">{{ linked_site_name }}</h1>
-            {% else %}
-              <div id="site-name">{{ linked_site_name }}</div>
-            {% endif %}
+            
+              
           </div>
         {% endif %}
       </header>
-
+    
+      {{ page.m_nav }}
+      <div class ="menu-desktop-wrapper">
+        <div class="row">
+          <div class="columns large-12">
+            {{ page.d_nav }}
+          </div>
+        </div>
+      </div>
+    
       {% if page.header %}
         <div class="row">
           <div class="large-12 columns">
