@@ -23,24 +23,9 @@
  * - https://drupal.org/node/1887922
  * - http://smacss.com/
  */
-/* line 3, ../scss/base/_init.scss */
-body {
-  background: #999;
-}
-
-/* line 6, ../scss/base/_init.scss */
-.scroll-top {
-  background-color: #008CBA;
-  border-radius: 4px;
-  bottom: 1.5rem;
-  display: none;
-  height: 40px;
-  position: fixed;
-  right: 2rem;
-  text-align: center;
-  width: 40px;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -562,10 +547,10 @@ body {
 
 /* line 502, ../../zurb_foundation/scss/foundation/components/_global.scss */
 body {
-  background: #fff;
+  background: #F9F9F9;
   color: #222;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -2184,7 +2169,7 @@ select {
   background: #EFEFEF;
   color: #222222;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -2895,7 +2880,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -5631,7 +5616,7 @@ kbd {
 /* line 91, ../../zurb_foundation/scss/foundation/components/_labels.scss */
 .label {
   display: inline-block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -6195,7 +6180,7 @@ ul.pagination li {
 .pricing-table .title {
   background-color: #333333;
   color: #EEEEEE;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -6205,7 +6190,7 @@ ul.pagination li {
 .pricing-table .price {
   background-color: #F6F6F6;
   color: #333333;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 2rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -6601,7 +6586,7 @@ ul.pagination li {
 /* line 118, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -6632,7 +6617,7 @@ ul.pagination li {
 /* line 91, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: normal;
 }
 /* line 97, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
@@ -6818,7 +6803,7 @@ ul.pagination li {
 .sub-nav li {
   color: #999999;
   float: left;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   margin-left: 1rem;
@@ -7012,25 +6997,26 @@ ul.pagination li {
   border-radius: 2rem;
 }
 
-/* line 131, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 133, ../scss/components/_tables.scss */
 table {
   background: #FFFFFF;
   border: solid 1px #DDDDDD;
   margin-bottom: 1.25rem;
   table-layout: auto;
+  width: 100%;
 }
-/* line 69, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 71, ../scss/components/_tables.scss */
 table caption {
   background: transparent;
   color: #222222;
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 78, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 80, ../scss/components/_tables.scss */
 table thead {
   background: #F5F5F5;
 }
-/* line 82, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 84, ../scss/components/_tables.scss */
 table thead tr th,
 table thead tr td {
   color: #222222;
@@ -7038,11 +7024,11 @@ table thead tr td {
   font-weight: bold;
   padding: 0.5rem 0.625rem 0.625rem;
 }
-/* line 92, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 94, ../scss/components/_tables.scss */
 table tfoot {
   background: #F5F5F5;
 }
-/* line 96, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 98, ../scss/components/_tables.scss */
 table tfoot tr th,
 table tfoot tr td {
   color: #222222;
@@ -7050,7 +7036,7 @@ table tfoot tr td {
   font-weight: bold;
   padding: 0.5rem 0.625rem 0.625rem;
 }
-/* line 107, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 109, ../scss/components/_tables.scss */
 table tr th,
 table tr td {
   color: #222222;
@@ -7058,11 +7044,11 @@ table tr td {
   padding: 0.5625rem 0.625rem;
   text-align: left;
 }
-/* line 115, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 117, ../scss/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: #F9F9F9;
 }
-/* line 120, ../../zurb_foundation/scss/foundation/components/_tables.scss */
+/* line 122, ../scss/components/_tables.scss */
 table thead tr th,
 table tfoot tr th,
 table tfoot tr td,
@@ -7101,7 +7087,7 @@ table tr td {
   display: block;
   background-color: #EFEFEF;
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
 }
@@ -7556,7 +7542,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: #FFFFFF;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   padding-left: 0.9375rem;
@@ -8429,7 +8415,7 @@ p aside {
 /* line 255, ../../zurb_foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;

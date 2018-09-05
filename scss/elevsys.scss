@@ -34,7 +34,7 @@
 
 // Global Zurb Foundation variable overrides.
 @import "base/init";
-
+@import "settings";
 // Comment out this import if you don't want to use normalize.
 @import "../../zurb_foundation/scss/normalize";
 
@@ -68,7 +68,7 @@
 @import "../../zurb_foundation/scss/foundation/components/split-buttons";
 @import "../../zurb_foundation/scss/foundation/components/sub-nav";
 @import "../../zurb_foundation/scss/foundation/components/switches";
-@import "../../zurb_foundation/scss/foundation/components/tables";
+@import "components/tables";
 @import "../../zurb_foundation/scss/foundation/components/tabs";
 @import "../../zurb_foundation/scss/foundation/components/thumbs";
 @import "../../zurb_foundation/scss/foundation/components/tooltips";
@@ -116,3 +116,4 @@
 
 // Older IE support
 // @import "vendor/ie";
+

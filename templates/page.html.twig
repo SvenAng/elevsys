@@ -66,9 +66,11 @@
     </aside>
     
     {{ page.m_nav }}
-    {{ page.d_nav }}
+    <div class ="menu-d">
+      {{ page.d_nav }}
+    </div>
     
-      {% if page.meta_header %}
+      {% if page.meta_header %}x
         {% if meta_header_grid %}
           <div class="row">
             <div class="large-12 columns">

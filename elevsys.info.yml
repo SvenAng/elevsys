@@ -1,5 +1,5 @@
 name: Elevsys - Motivera
-description: "Custom sub-theme, inherits from the Foundation base theme read <a href=\"http://foundation.zurb.com/docs/index.php\">framework documentation</a>"
+description: "Subtema byggt på Foudation 5"
 core: 8.x
 type: theme
 base theme: zurb_foundation
