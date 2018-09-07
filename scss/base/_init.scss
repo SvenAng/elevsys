@@ -1,42 +1,118 @@
 //@import "../../zurb_foundation/scss/foundation/functions";
 
 .meta_header{
-  background: $gainsboro;
+//  background: $gainsboro;
+  border-bottom: 2px solid $primary-color;
   font-size: 0.85rem;
   color: $charcoal;
+  padding: $column-gutter/4 0;
+  p{
+    margin: 0;
+  }
 }
-
+.header-wrapper{
+  background: white;
+}
+header{
+  padding: $column-gutter/2 0;
+}
 //Main-menu
 //html.no-touchevents.details.js body.lang-sv.section-elever.views-page.user-logged-in.path-elever div.dialog-off-canvas-main-canvas div.off-canvas-wrap div.inner-wrap div.menu-desktop.row div.row div.columns.large-12 div nav#block-elevsys-huvudmeny.block-elevsys-huvudmeny ul.menu.nav-bar li
 .menu-desktop-wrapper{
   background: $silver;
+  border-bottom: 1px solid $gainsboro;
+  nav{
+    margin: 0;
+    padding: 0;
+    display: block;
     ul.menu{
-
-      margin-top: 10px;
-      margin-bottom: 10px;
-//      float: right;
+//      margin: $column-gutter 0;
+      padding: 0;
+      margin: 0;
+      text-align: right;
       li{
 
         list-style-type: none;
-        float: left;
+//        float: left;
+        display: inline-table;
         padding-left: 1rem;
+        line-height: 3rem;
         a{
           color: $black;
           font-size: 1.2rem;
+          font-family: 'PT Sans Narrow', sans-serif;
+          
         }
-//        span:hover, a:hover{
-//          color: $primary-color;
-//        }
-//        span{
-//          font-size: 1.2rem;
-//          cursor: pointer;
-//        }
+        .is-active{
+          color: $primary-color;
+        }
+
       }
     }
-//  }
+  }
 }
-
-
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+#site-name{
+  
+  font-size: 2rem;
+}
+//Sidomeny\
+#sidebar-first{
+  nav{
+    margin-top: $column-gutter;
+    
+  }
+}
+.sidebar{
+  .block-title{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.4rem;
+    border-bottom: 1px solid $aluminum;
+  }
+  nav{
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style-type: none;
+        border-bottom: 1px solid $gainsboro;
+        padding: 0.5rem;
+        margin: 0;
+//        line-height: 0;
+        a{
+//          line-height: 2rem;
+          padding: 0.5rem;
+          color: $body-font-color;
+        }
+        a.is-active{
+//          color: $white;
+          color: $primary-color;
+        }
+      }
+      li:last-child{
+        border: none;
+      }
+    }
+  }
+}
+table{
+  ul{
+    margin: 0;
+    padding: 0;
+    font-size: rem-calc(14);
+    li{
+      
+    }
+  }
+}
+.row.main-wrapper{
+  margin-top: $column-gutter;
+}
 //scroll
 .scroll-top {
   background-color: $primary-color;
@@ -59,3 +135,16 @@
   //    margin: 0 0 2.5rem 0;
   padding: 0;
 }
+
+a.tabledrag-handle .handle{
+  height: 2rem;
+  width: 2rem;
+}
+//Fula hack
+//Döljer Summary i CKEditor
+
+//.js-text-format-wrapper{
+//  label, .link-edit-summary{
+//    display: none;
+//  }
+//}

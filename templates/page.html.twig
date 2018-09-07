@@ -70,7 +70,7 @@
       {% if page.meta_header %}
         <div class="meta_header">
           <div class="row">
-            <div class="large-12 columns">
+            <div class="large-12 columns right">
 
               {{ page.meta_header }}
 
@@ -78,7 +78,7 @@
           </div>
         </div>
       {% endif %}
-
+    <div class="header-wrapper">
       <header class="row" role="banner" aria-label="{{ 'Site header'|t }}">
         {% if linked_site_name or linked_logo %}
           <div class="large-2 columns">
@@ -86,7 +86,7 @@
               {{ linked_logo }}
             {% endif %}
           </div>
-          <div class="left large-10 columns">
+          <div class="right large-10 columns">
             
               <h1 id="site-name">{{ linked_site_name }}</h1>
             
@@ -94,6 +94,7 @@
           </div>
         {% endif %}
       </header>
+    </div>
     
       {{ page.m_nav }}
       <div class ="menu-desktop-wrapper">
@@ -163,7 +164,7 @@
       </div>
       {% endif %}
 
-      <div class="row">
+      <div class="row main-wrapper">
         <main id="main" class="{{ main_grid }} columns" role="main">
           {% if page.highlighted %}
             {% spaceless %}
