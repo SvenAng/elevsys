@@ -140,6 +140,34 @@ a.tabledrag-handle .handle{
   height: 2rem;
   width: 2rem;
 }
+main{
+  h2.block-title{
+    font-size: 1.5rem;
+    padding-top: $column-gutter;
+  }
+}
+//Display Suite 
+.ds-1col{
+  div{
+    padding-bottom: 0.3rem;
+  }
+  .field-label-inline{
+//    font-style: italic;
+    color: $jumbo;
+    
+  }
+  .field-name-body{
+    border: 1px $iron solid;
+    padding: 0.4rem;
+    
+    p{
+      font-size: 0.85rem;
+    }
+  }
+  .value{
+    
+  }
+}
 //Fula hack
 //Döljer Summary i CKEditor
 

@@ -180,6 +180,30 @@ a.tabledrag-handle .handle {
   width: 2rem;
 }
 
+/* line 144, ../scss/base/_init.scss */
+main h2.block-title {
+  font-size: 1.5rem;
+  padding-top: 1.875rem;
+}
+
+/* line 151, ../scss/base/_init.scss */
+.ds-1col div {
+  padding-bottom: 0.3rem;
+}
+/* line 154, ../scss/base/_init.scss */
+.ds-1col .field-label-inline {
+  color: #888888;
+}
+/* line 159, ../scss/base/_init.scss */
+.ds-1col .field-name-body {
+  border: 1px #CCCCCC solid;
+  padding: 0.4rem;
+}
+/* line 163, ../scss/base/_init.scss */
+.ds-1col .field-name-body p {
+  font-size: 0.85rem;
+}
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
