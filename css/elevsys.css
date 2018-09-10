@@ -50,106 +50,111 @@ header {
   padding: 0.9375rem 0;
 }
 
-/* line 21, ../scss/base/_init.scss */
+/* line 19, ../scss/base/_init.scss */
+.certifikat-wrapper {
+  page-break-after: always;
+}
+
+/* line 24, ../scss/base/_init.scss */
 .menu-desktop-wrapper {
   background: #EFEFEF;
   border-bottom: 1px solid #DDDDDD;
 }
-/* line 24, ../scss/base/_init.scss */
+/* line 27, ../scss/base/_init.scss */
 .menu-desktop-wrapper nav {
   margin: 0;
   padding: 0;
   display: block;
 }
-/* line 28, ../scss/base/_init.scss */
+/* line 31, ../scss/base/_init.scss */
 .menu-desktop-wrapper nav ul.menu {
   padding: 0;
   margin: 0;
   text-align: right;
 }
-/* line 33, ../scss/base/_init.scss */
+/* line 36, ../scss/base/_init.scss */
 .menu-desktop-wrapper nav ul.menu li {
   list-style-type: none;
   display: inline-table;
   padding-left: 1rem;
   line-height: 3rem;
 }
-/* line 40, ../scss/base/_init.scss */
+/* line 43, ../scss/base/_init.scss */
 .menu-desktop-wrapper nav ul.menu li a {
   color: #000000;
   font-size: 1.2rem;
   font-family: 'PT Sans Narrow', sans-serif;
 }
-/* line 46, ../scss/base/_init.scss */
+/* line 49, ../scss/base/_init.scss */
 .menu-desktop-wrapper nav ul.menu li .is-active {
   color: #ed6238;
 }
 
-/* line 54, ../scss/base/_init.scss */
+/* line 57, ../scss/base/_init.scss */
 .left {
   text-align: left;
 }
 
-/* line 57, ../scss/base/_init.scss */
+/* line 60, ../scss/base/_init.scss */
 .right {
   text-align: right;
 }
 
-/* line 60, ../scss/base/_init.scss */
+/* line 63, ../scss/base/_init.scss */
 #site-name {
   font-size: 2rem;
 }
 
-/* line 66, ../scss/base/_init.scss */
+/* line 69, ../scss/base/_init.scss */
 #sidebar-first nav {
   margin-top: 1.875rem;
 }
 
-/* line 72, ../scss/base/_init.scss */
+/* line 75, ../scss/base/_init.scss */
 .sidebar .block-title {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.4rem;
   border-bottom: 1px solid #999999;
 }
-/* line 78, ../scss/base/_init.scss */
+/* line 81, ../scss/base/_init.scss */
 .sidebar nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 81, ../scss/base/_init.scss */
+/* line 84, ../scss/base/_init.scss */
 .sidebar nav ul li {
   list-style-type: none;
   border-bottom: 1px solid #DDDDDD;
   padding: 0.5rem;
   margin: 0;
 }
-/* line 87, ../scss/base/_init.scss */
+/* line 90, ../scss/base/_init.scss */
 .sidebar nav ul li a {
   padding: 0.5rem;
   color: #222222;
 }
-/* line 92, ../scss/base/_init.scss */
+/* line 95, ../scss/base/_init.scss */
 .sidebar nav ul li a.is-active {
   color: #ed6238;
 }
-/* line 97, ../scss/base/_init.scss */
+/* line 100, ../scss/base/_init.scss */
 .sidebar nav ul li:last-child {
   border: none;
 }
 
-/* line 104, ../scss/base/_init.scss */
+/* line 107, ../scss/base/_init.scss */
 table ul {
   margin: 0;
   padding: 0;
   font-size: 0.875rem;
 }
 
-/* line 113, ../scss/base/_init.scss */
+/* line 116, ../scss/base/_init.scss */
 .row.main-wrapper {
   margin-top: 1.875rem;
 }
 
-/* line 117, ../scss/base/_init.scss */
+/* line 120, ../scss/base/_init.scss */
 .scroll-top {
   background-color: #ed6238;
   border-radius: 4px;
@@ -162,44 +167,44 @@ table ul {
   width: 40px;
 }
 
-/* line 129, ../scss/base/_init.scss */
+/* line 132, ../scss/base/_init.scss */
 .fi-arrow-up::before {
   content: "";
 }
 
-/* line 132, ../scss/base/_init.scss */
+/* line 135, ../scss/base/_init.scss */
 .scroll-top i {
   color: #ffffff;
   font-size: 1.7rem;
   padding: 0;
 }
 
-/* line 139, ../scss/base/_init.scss */
+/* line 142, ../scss/base/_init.scss */
 a.tabledrag-handle .handle {
   height: 2rem;
   width: 2rem;
 }
 
-/* line 144, ../scss/base/_init.scss */
+/* line 147, ../scss/base/_init.scss */
 main h2.block-title {
   font-size: 1.5rem;
   padding-top: 1.875rem;
 }
 
-/* line 151, ../scss/base/_init.scss */
+/* line 154, ../scss/base/_init.scss */
 .ds-1col div {
   padding-bottom: 0.3rem;
 }
-/* line 154, ../scss/base/_init.scss */
+/* line 157, ../scss/base/_init.scss */
 .ds-1col .field-label-inline {
   color: #888888;
 }
-/* line 159, ../scss/base/_init.scss */
+/* line 162, ../scss/base/_init.scss */
 .ds-1col .field-name-body {
   border: 1px #CCCCCC solid;
   padding: 0.4rem;
 }
-/* line 163, ../scss/base/_init.scss */
+/* line 166, ../scss/base/_init.scss */
 .ds-1col .field-name-body p {
   font-size: 0.85rem;
 }
