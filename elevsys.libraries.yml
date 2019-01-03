@@ -3,6 +3,7 @@ global:
   css:
     base:
       css/elevsys.css: {}
+      css/entity-print.css: {}
       
   js:
     js/elevsys.js: {}

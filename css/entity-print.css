@@ -1,0 +1,21 @@
+body {
+  font-family: "DejaVu Sans", Helvetica, Arial, sans-serif;
+}
+
+.page {
+  padding: 50px;
+  
+}
+
+.page img {
+  max-width: 100%;
+  height: auto;
+}
+
+.certifikat{
+  page-break-after: always;
+}
+
+.page td img {
+  max-width: none;
+}
