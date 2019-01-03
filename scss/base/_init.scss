@@ -171,6 +171,38 @@ main{
     
   }
 }
+//Admin tabeller
+
+table{
+    tbody{
+        tr:hover{
+            background: $gainsboro !important;
+            td{
+                a{
+                    color: $primary-color;
+                }
+//                color: $white-smoke;
+            }
+        }
+    }
+    
+}
+//User full
+
+.section-user{
+    .field-label-inline, .field-label, .field-label-above{
+        color: $base ;
+    font-weight: 700;
+    }
+    .field-items{
+        color: $black;
+    }
+    .user-field, .js-form-item{
+        margin-bottom: $column-gutter/4;   
+    }
+}
+
+
 //Fula hack
 //Döljer Summary i CKEditor
 
